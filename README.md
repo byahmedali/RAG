@@ -30,7 +30,7 @@ This repository demonstrates the implementation of a RAG system that:
 - [Ollama](https://ollama.ai/)
     - Installed and running locally
     - [`nomic-embed-text`](https://ollama.com/library/nomic-embed-text) available locally
-- G[roq API key](https://console.groq.com/keys)
+- [Groq API key](https://console.groq.com/keys)
 
 
 ## Setup Instructions
