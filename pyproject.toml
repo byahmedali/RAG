@@ -1,0 +1,19 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Retrieval-Augmented Generation (RAG) Demo"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "groq>=0.31.0",
+    "ipykernel>=6.30.1",
+    "jupyter>=1.1.1",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.27",
+    "langchain-ollama>=0.3.6",
+    "ollama>=0.5.3",
+    "pypdf>=6.0.0",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.48.1",
+]
