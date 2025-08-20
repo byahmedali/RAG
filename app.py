@@ -171,7 +171,7 @@ if user_query:
     ).append({"role": "user", "content": user_query})
 
     # Get relevant documents from vector store using the original query
-    results = db.similarity_search(user_query, k=3)
+    results = db.similarity_search(user_query, k=5)
     context = "\n".join([doc.page_content for doc in results])
 
     # Get response from Groq

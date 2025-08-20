@@ -89,7 +89,7 @@ RAG/
 - **Embedding Model**: nomic-embed-text (via Ollama)
 
 ### Retrieval Settings
-- **Top-k Results**: 3 most relevant chunks per query
+- **Top-k Results**: 5 most relevant chunks per query
 - **Similarity Search**: Cosine similarity in ChromaDB
 
 ### LLM Settings
