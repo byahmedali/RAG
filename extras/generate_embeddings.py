@@ -4,7 +4,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
 
-
 # Load source PDF
 def load_documents():
     documents = []
@@ -18,11 +17,12 @@ def load_documents():
 
     return documents
 
-
 # Split documents into chunks
 def split_documents(documents):
     print("Splitting documents into chunks...")
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=1000,
+        chunk_overlap=200)
     chunks = text_splitter.split_documents(documents)
     return chunks
 
