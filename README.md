@@ -28,6 +28,7 @@ This repository demonstrates the implementation of a RAG system that:
 ## Prerequisites
 
 - Python 3.11.*
+- UV Package Manager ([Install Guide](https://docs.astral.sh/uv/getting-started/installation/))
 - [Ollama](https://ollama.ai/)
     - Installed and running locally
     - [`nomic-embed-text`](https://ollama.com/library/nomic-embed-text) available locally
